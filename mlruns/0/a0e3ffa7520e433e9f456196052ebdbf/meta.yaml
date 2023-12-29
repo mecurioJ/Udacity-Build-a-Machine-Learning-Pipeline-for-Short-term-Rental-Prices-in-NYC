@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/a0e3ffa7520e433e9f456196052ebdbf/artifacts
+end_time: 1703201149337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0e3ffa7520e433e9f456196052ebdbf
+run_name: fortunate-bass-816
+run_uuid: a0e3ffa7520e433e9f456196052ebdbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201058876
+status: 3
+tags: []
+user_id: vscode

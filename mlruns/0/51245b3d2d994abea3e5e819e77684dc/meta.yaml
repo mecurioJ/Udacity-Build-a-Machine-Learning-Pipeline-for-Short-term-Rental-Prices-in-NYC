@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/51245b3d2d994abea3e5e819e77684dc/artifacts
+end_time: 1703201797296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51245b3d2d994abea3e5e819e77684dc
+run_name: worried-skink-712
+run_uuid: 51245b3d2d994abea3e5e819e77684dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201784658
+status: 4
+tags: []
+user_id: vscode

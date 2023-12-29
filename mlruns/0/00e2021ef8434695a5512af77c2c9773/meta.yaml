@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/00e2021ef8434695a5512af77c2c9773/artifacts
+end_time: 1703803191228
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00e2021ef8434695a5512af77c2c9773
+run_name: agreeable-crab-189
+run_uuid: 00e2021ef8434695a5512af77c2c9773
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703803155340
+status: 3
+tags: []
+user_id: vscode

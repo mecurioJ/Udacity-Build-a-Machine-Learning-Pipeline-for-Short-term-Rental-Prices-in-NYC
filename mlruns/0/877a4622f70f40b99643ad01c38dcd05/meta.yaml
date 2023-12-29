@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/877a4622f70f40b99643ad01c38dcd05/artifacts
+end_time: 1703267221112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 877a4622f70f40b99643ad01c38dcd05
+run_name: crawling-stork-542
+run_uuid: 877a4622f70f40b99643ad01c38dcd05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703267207025
+status: 3
+tags: []
+user_id: vscode

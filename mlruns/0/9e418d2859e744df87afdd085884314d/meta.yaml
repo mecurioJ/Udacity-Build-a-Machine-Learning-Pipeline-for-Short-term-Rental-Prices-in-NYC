@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/9e418d2859e744df87afdd085884314d/artifacts
+end_time: 1703203370595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e418d2859e744df87afdd085884314d
+run_name: stately-dog-623
+run_uuid: 9e418d2859e744df87afdd085884314d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703203295541
+status: 3
+tags: []
+user_id: vscode

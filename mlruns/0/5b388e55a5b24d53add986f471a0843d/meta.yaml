@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/5b388e55a5b24d53add986f471a0843d/artifacts
+end_time: 1703203046190
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b388e55a5b24d53add986f471a0843d
+run_name: blushing-fowl-710
+run_uuid: 5b388e55a5b24d53add986f471a0843d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703203015951
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/a1eba304cf1a41949bb734ecdcd884c8/artifacts
+end_time: 1703802971453
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1eba304cf1a41949bb734ecdcd884c8
+run_name: chill-chimp-506
+run_uuid: a1eba304cf1a41949bb734ecdcd884c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703802967275
+status: 3
+tags: []
+user_id: vscode

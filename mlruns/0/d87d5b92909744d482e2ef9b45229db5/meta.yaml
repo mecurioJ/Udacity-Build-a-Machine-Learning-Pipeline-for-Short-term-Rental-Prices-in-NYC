@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/d87d5b92909744d482e2ef9b45229db5/artifacts
+end_time: 1703202977997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d87d5b92909744d482e2ef9b45229db5
+run_name: melodic-kit-288
+run_uuid: d87d5b92909744d482e2ef9b45229db5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703202950776
+status: 3
+tags: []
+user_id: vscode

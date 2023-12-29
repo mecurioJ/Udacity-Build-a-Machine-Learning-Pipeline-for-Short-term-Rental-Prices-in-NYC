@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/e136cd31d1ab4000b56bd7b70d00c6ca/artifacts
+end_time: 1703267194097
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e136cd31d1ab4000b56bd7b70d00c6ca
+run_name: rambunctious-owl-960
+run_uuid: e136cd31d1ab4000b56bd7b70d00c6ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703267185271
+status: 3
+tags: []
+user_id: vscode

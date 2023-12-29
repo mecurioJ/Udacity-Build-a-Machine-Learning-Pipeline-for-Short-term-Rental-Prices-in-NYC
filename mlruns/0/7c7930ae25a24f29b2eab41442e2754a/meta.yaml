@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/7c7930ae25a24f29b2eab41442e2754a/artifacts
+end_time: 1703200286033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c7930ae25a24f29b2eab41442e2754a
+run_name: unleashed-sponge-397
+run_uuid: 7c7930ae25a24f29b2eab41442e2754a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703200274025
+status: 3
+tags: []
+user_id: vscode

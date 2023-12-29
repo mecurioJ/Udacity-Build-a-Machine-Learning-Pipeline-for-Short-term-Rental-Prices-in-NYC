@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/46998fd799d1449a8756acb7f0bb4e1c/artifacts
+end_time: 1703201948840
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46998fd799d1449a8756acb7f0bb4e1c
+run_name: fun-shrimp-977
+run_uuid: 46998fd799d1449a8756acb7f0bb4e1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201936909
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/97a2bbaaa26649ad81b702fe8f232208/artifacts
+end_time: 1703262779044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97a2bbaaa26649ad81b702fe8f232208
+run_name: peaceful-jay-210
+run_uuid: 97a2bbaaa26649ad81b702fe8f232208
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262768747
+status: 3
+tags: []
+user_id: vscode

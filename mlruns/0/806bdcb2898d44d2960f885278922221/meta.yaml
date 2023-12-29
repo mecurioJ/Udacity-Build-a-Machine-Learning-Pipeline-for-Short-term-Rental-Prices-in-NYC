@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/806bdcb2898d44d2960f885278922221/artifacts
+end_time: 1703199873226
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 806bdcb2898d44d2960f885278922221
+run_name: upset-doe-42
+run_uuid: 806bdcb2898d44d2960f885278922221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703199808546
+status: 3
+tags: []
+user_id: vscode

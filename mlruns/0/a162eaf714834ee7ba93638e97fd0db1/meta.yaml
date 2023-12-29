@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/a162eaf714834ee7ba93638e97fd0db1/artifacts
+end_time: 1703200457070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a162eaf714834ee7ba93638e97fd0db1
+run_name: enchanting-perch-527
+run_uuid: a162eaf714834ee7ba93638e97fd0db1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703200420297
+status: 3
+tags: []
+user_id: vscode

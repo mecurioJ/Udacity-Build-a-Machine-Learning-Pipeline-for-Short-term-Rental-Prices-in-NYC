@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/de142e9c0acd474ab14a638d3e36a5d9/artifacts
+end_time: 1703203370850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de142e9c0acd474ab14a638d3e36a5d9
+run_name: indecisive-wren-671
+run_uuid: de142e9c0acd474ab14a638d3e36a5d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703203292647
+status: 3
+tags: []
+user_id: vscode

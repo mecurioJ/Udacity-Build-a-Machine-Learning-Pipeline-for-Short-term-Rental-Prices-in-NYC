@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/031d704b5470485eb1dbe135a4fe8a7d/artifacts
+end_time: 1703267251775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 031d704b5470485eb1dbe135a4fe8a7d
+run_name: omniscient-jay-166
+run_uuid: 031d704b5470485eb1dbe135a4fe8a7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703267160249
+status: 3
+tags: []
+user_id: vscode

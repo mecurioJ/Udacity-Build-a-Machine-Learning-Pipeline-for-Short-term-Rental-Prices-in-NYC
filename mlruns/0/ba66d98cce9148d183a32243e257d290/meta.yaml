@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/ba66d98cce9148d183a32243e257d290/artifacts
+end_time: 1703267251526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba66d98cce9148d183a32243e257d290
+run_name: blushing-yak-899
+run_uuid: ba66d98cce9148d183a32243e257d290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703267221290
+status: 3
+tags: []
+user_id: vscode

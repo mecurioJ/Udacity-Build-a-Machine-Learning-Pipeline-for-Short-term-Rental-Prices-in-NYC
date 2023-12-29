@@ -1,0 +1,103 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-12-21T23:14:08.790071",
+    "startedAt": "2023-12-21T23:14:08.019047",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/opt/conda/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest",
+    "host": "9c02e51cd774",
+    "username": "vscode",
+    "executable": "/opt/conda/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 32.144493103027344
+    },
+    "memory": {
+        "total": 31.210098266601562
+    }
+}

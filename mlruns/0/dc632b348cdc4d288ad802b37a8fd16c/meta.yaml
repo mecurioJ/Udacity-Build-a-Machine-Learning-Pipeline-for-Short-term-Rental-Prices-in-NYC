@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/dc632b348cdc4d288ad802b37a8fd16c/artifacts
+end_time: 1703803191458
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc632b348cdc4d288ad802b37a8fd16c
+run_name: kindly-tern-52
+run_uuid: dc632b348cdc4d288ad802b37a8fd16c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703803066347
+status: 3
+tags: []
+user_id: vscode

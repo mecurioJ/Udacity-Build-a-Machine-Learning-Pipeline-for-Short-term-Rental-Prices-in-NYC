@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/6fd18642ffab4082b6160f3373750947/artifacts
+end_time: 1703199980659
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fd18642ffab4082b6160f3373750947
+run_name: dazzling-eel-884
+run_uuid: 6fd18642ffab4082b6160f3373750947
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703199955422
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/cffcef58c5484aeb878123cb639c3996/artifacts
+end_time: 1703262796758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cffcef58c5484aeb878123cb639c3996
+run_name: enchanting-sloth-624
+run_uuid: cffcef58c5484aeb878123cb639c3996
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262781727
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,10 @@
+2023-12-21 23:39:03,162 Minimum price: 10, Maximum price: 350
+2023-12-21 23:39:03,172 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/workspaces/Udacity/d501/src/train_random_forest/run.py", line 297, in <module>
+    go(args)
+  File "/workspaces/Udacity/d501/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/workspaces/Udacity/d501/src/train_random_forest/run.py", line 234, in get_inference_pipeline
+    ("random_forest", random_Forest)
+NameError: name 'random_Forest' is not defined

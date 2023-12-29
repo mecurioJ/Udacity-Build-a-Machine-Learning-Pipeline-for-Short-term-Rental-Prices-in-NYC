@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/4b985579f0c5489c8af30f78bf6d1736/artifacts
+end_time: 1703262878067
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b985579f0c5489c8af30f78bf6d1736
+run_name: wistful-mule-100
+run_uuid: 4b985579f0c5489c8af30f78bf6d1736
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262865768
+status: 3
+tags: []
+user_id: vscode

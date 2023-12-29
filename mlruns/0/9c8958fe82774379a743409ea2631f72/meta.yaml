@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/9c8958fe82774379a743409ea2631f72/artifacts
+end_time: 1703262825272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c8958fe82774379a743409ea2631f72
+run_name: skillful-fish-937
+run_uuid: 9c8958fe82774379a743409ea2631f72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262796903
+status: 3
+tags: []
+user_id: vscode

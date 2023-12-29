@@ -1,0 +1,10 @@
+2023-12-28 22:38:23,178 Minimum price: 10, Maximum price: 350
+2023-12-28 22:38:23,187 Preparing sklearn pipeline
+2023-12-28 22:38:23,188 Fitting
+2023-12-28 22:38:38,757 Scoring
+2023-12-28 22:38:38,913 Score: 0.5476846307642016
+2023-12-28 22:38:38,913 MAE: 32.78512961508248
+2023-12-28 22:38:38,913 Exporting model
+/opt/conda/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/mlflow/models/signature.py:130: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+[34m[1mwandb[39m[22m: Adding directory to artifact (/tmp/tmp4d_05adh/random_forest_dir)... Done. 0.0s

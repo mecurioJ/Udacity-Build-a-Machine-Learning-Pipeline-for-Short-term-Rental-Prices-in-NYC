@@ -1,0 +1,217 @@
+2023-12-28 22:39:18,752 INFO    StreamThr :4834 [internal.py:wandb_internal():87] W&B internal server running at pid: 4834, started at: 2023-12-28 22:39:18.750777
+2023-12-28 22:39:18,753 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status
+2023-12-28 22:39:18,755 INFO    WriterThread:4834 [datastore.py:open_for_write():85] open: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/run-4alz6rzo.wandb
+2023-12-28 22:39:18,757 DEBUG   SenderThread:4834 [sender.py:send():334] send: header
+2023-12-28 22:39:18,758 DEBUG   SenderThread:4834 [sender.py:send():334] send: run
+2023-12-28 22:39:19,167 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: check_version
+2023-12-28 22:39:19,168 INFO    SenderThread:4834 [dir_watcher.py:__init__():216] watching files in: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files
+2023-12-28 22:39:19,168 INFO    SenderThread:4834 [sender.py:_start_run_threads():1065] run started: 4alz6rzo with start time 1703803158.752603
+2023-12-28 22:39:19,168 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: summary_record
+2023-12-28 22:39:19,203 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:19,205 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: check_version
+2023-12-28 22:39:19,310 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: run_start
+2023-12-28 22:39:19,311 DEBUG   HandlerThread:4834 [system_info.py:__init__():31] System info init
+2023-12-28 22:39:19,311 DEBUG   HandlerThread:4834 [system_info.py:__init__():46] System info init done
+2023-12-28 22:39:19,311 INFO    HandlerThread:4834 [system_monitor.py:start():151] Starting system monitor
+2023-12-28 22:39:19,312 INFO    SystemMonitor:4834 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-12-28 22:39:19,312 INFO    HandlerThread:4834 [system_monitor.py:probe():172] Collecting system info
+2023-12-28 22:39:19,312 INFO    SystemMonitor:4834 [interfaces.py:start():168] Started cpu
+2023-12-28 22:39:19,313 INFO    SystemMonitor:4834 [interfaces.py:start():168] Started disk
+2023-12-28 22:39:19,314 INFO    SystemMonitor:4834 [interfaces.py:start():168] Started memory
+2023-12-28 22:39:19,315 INFO    SystemMonitor:4834 [interfaces.py:start():168] Started network
+2023-12-28 22:39:19,316 DEBUG   HandlerThread:4834 [system_info.py:probe():195] Probing system
+2023-12-28 22:39:19,321 DEBUG   HandlerThread:4834 [git.py:repo():40] git repository is invalid
+2023-12-28 22:39:19,322 DEBUG   HandlerThread:4834 [system_info.py:probe():241] Probing system done
+2023-12-28 22:39:19,322 DEBUG   HandlerThread:4834 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2023-12-28T22:39:19.317047', 'startedAt': '2023-12-28T22:39:18.712851', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/workspaces/Udacity/d501/multirun/2023-12-28/22-37-48/3/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/workspaces/Udacity/d501/src/train_random_forest/run.py', 'codePath': 'run.py', 'host': '9c02e51cd774', 'username': 'vscode', 'executable': '/opt/conda/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0089999999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 35.07548522949219}, 'memory': {'total': 31.210098266601562}}
+2023-12-28 22:39:19,322 INFO    HandlerThread:4834 [system_monitor.py:probe():182] Finished collecting system info
+2023-12-28 22:39:19,322 INFO    HandlerThread:4834 [system_monitor.py:probe():185] Publishing system info
+2023-12-28 22:39:19,322 DEBUG   HandlerThread:4834 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-12-28 22:39:19,325 DEBUG   HandlerThread:4834 [system_info.py:_save_pip():67] Saving pip packages done
+2023-12-28 22:39:19,325 DEBUG   HandlerThread:4834 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-12-28 22:39:20,172 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/requirements.txt
+2023-12-28 22:39:20,173 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/conda-environment.yaml
+2023-12-28 22:39:20,174 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-summary.json
+2023-12-28 22:39:20,723 DEBUG   HandlerThread:4834 [system_info.py:_save_conda():86] Saving conda packages done
+2023-12-28 22:39:20,727 INFO    HandlerThread:4834 [system_monitor.py:probe():187] Finished publishing system info
+2023-12-28 22:39:20,730 DEBUG   SenderThread:4834 [sender.py:send():334] send: files
+2023-12-28 22:39:20,730 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-12-28 22:39:20,737 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-28 22:39:20,738 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: stop_status
+2023-12-28 22:39:20,956 DEBUG   SenderThread:4834 [sender.py:send():334] send: telemetry
+2023-12-28 22:39:20,957 DEBUG   SenderThread:4834 [sender.py:send():334] send: config
+2023-12-28 22:39:20,957 DEBUG   SenderThread:4834 [sender.py:send():334] send: config
+2023-12-28 22:39:21,092 DEBUG   SenderThread:4834 [sender.py:send():334] send: use_artifact
+2023-12-28 22:39:21,148 INFO    Thread-16 :4834 [upload_job.py:push():143] Uploaded file /tmp/tmph05vsue2wandb/s7zssh6s-wandb-metadata.json
+2023-12-28 22:39:21,182 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/conda-environment.yaml
+2023-12-28 22:39:21,183 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-metadata.json
+2023-12-28 22:39:22,186 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:24,193 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:24,375 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:29,376 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:34,376 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:35,737 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: keepalive
+2023-12-28 22:39:40,113 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:40,255 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:40,534 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: log_artifact
+2023-12-28 22:39:40,534 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: log_artifact
+2023-12-28 22:39:40,738 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: keepalive
+2023-12-28 22:39:41,238 INFO    Thread-19 :4834 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpnt6h793f
+2023-12-28 22:39:41,238 INFO    Thread-20 :4834 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpr9ic5h0h
+2023-12-28 22:39:41,239 INFO    Thread-23 :4834 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpzq1cbk2c
+2023-12-28 22:39:41,239 INFO    Thread-22 :4834 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmp4bg1gy8f
+2023-12-28 22:39:41,471 INFO    Thread-18 :4834 [upload_job.py:push():101] Uploaded file /home/vscode/.local/share/wandb/artifacts/staging/tmpkrrv9twv
+2023-12-28 22:39:42,262 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:44,313 INFO    Thread-21 :4834 [upload_job.py:push():101] Uploaded file /home/vscode/.local/share/wandb/artifacts/staging/tmpacv3lnn0
+2023-12-28 22:39:44,877 INFO    SenderThread:4834 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6Njc2MzUyNDk5', 'digest': '4cedccf355ad47a9db6d022580445fed', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDk0MjQ5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njc2MzUyMzA0', 'versionIndex': 10}}, 'version': 'latest'}
+2023-12-28 22:39:45,240 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: summary_record
+2023-12-28 22:39:45,295 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-summary.json
+2023-12-28 22:39:45,295 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:45,296 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: summary_record
+2023-12-28 22:39:45,299 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:45,337 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:45,623 DEBUG   SenderThread:4834 [sender.py:send():334] send: files
+2023-12-28 22:39:45,625 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_706a95b32069f1194964.png with policy now
+2023-12-28 22:39:45,625 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-28 22:39:45,630 DEBUG   SenderThread:4834 [sender.py:send():334] send: history
+2023-12-28 22:39:45,631 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: summary_record
+2023-12-28 22:39:45,671 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:45,672 DEBUG   SenderThread:4834 [sender.py:send():334] send: exit
+2023-12-28 22:39:45,672 INFO    SenderThread:4834 [sender.py:send_exit():557] handling exit code: 0
+2023-12-28 22:39:45,672 INFO    SenderThread:4834 [sender.py:send_exit():559] handling runtime: 26
+2023-12-28 22:39:45,727 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:45,730 INFO    SenderThread:4834 [sender.py:send_exit():565] send defer
+2023-12-28 22:39:45,731 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,732 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 0
+2023-12-28 22:39:45,733 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,733 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-12-28 22:39:45,734 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 1
+2023-12-28 22:39:45,734 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,735 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 1
+2023-12-28 22:39:45,735 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,736 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-12-28 22:39:45,736 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 2
+2023-12-28 22:39:45,737 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,737 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 2
+2023-12-28 22:39:45,738 INFO    HandlerThread:4834 [system_monitor.py:finish():161] Stopping system monitor
+2023-12-28 22:39:45,738 DEBUG   SystemMonitor:4834 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-12-28 22:39:45,739 DEBUG   SystemMonitor:4834 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-12-28 22:39:45,739 INFO    HandlerThread:4834 [interfaces.py:finish():175] Joined cpu
+2023-12-28 22:39:45,739 DEBUG   SystemMonitor:4834 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-12-28 22:39:45,740 INFO    HandlerThread:4834 [interfaces.py:finish():175] Joined disk
+2023-12-28 22:39:45,741 INFO    HandlerThread:4834 [interfaces.py:finish():175] Joined memory
+2023-12-28 22:39:45,741 INFO    HandlerThread:4834 [interfaces.py:finish():175] Joined network
+2023-12-28 22:39:45,742 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,742 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-12-28 22:39:45,742 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 3
+2023-12-28 22:39:45,742 DEBUG   SenderThread:4834 [sender.py:send():334] send: stats
+2023-12-28 22:39:45,742 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,743 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 3
+2023-12-28 22:39:45,743 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,743 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-12-28 22:39:45,743 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 4
+2023-12-28 22:39:45,743 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,744 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 4
+2023-12-28 22:39:45,744 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,744 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-12-28 22:39:45,744 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 5
+2023-12-28 22:39:45,744 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,745 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 5
+2023-12-28 22:39:45,745 DEBUG   SenderThread:4834 [sender.py:send():334] send: summary
+2023-12-28 22:39:45,769 INFO    SenderThread:4834 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-28 22:39:45,771 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,771 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-12-28 22:39:45,771 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 6
+2023-12-28 22:39:45,772 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,772 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 6
+2023-12-28 22:39:45,772 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,772 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-12-28 22:39:45,776 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: status_report
+2023-12-28 22:39:45,911 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 7
+2023-12-28 22:39:45,911 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:45,911 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 7
+2023-12-28 22:39:45,912 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:45,912 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-12-28 22:39:45,989 INFO    Thread-24 :4834 [upload_job.py:push():143] Uploaded file /tmp/tmph05vsue2wandb/1p96vtih-media/images/feature_importance_0_706a95b32069f1194964.png
+2023-12-28 22:39:46,305 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/config.yaml
+2023-12-28 22:39:46,306 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-summary.json
+2023-12-28 22:39:46,308 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/media/images/feature_importance_0_706a95b32069f1194964.png
+2023-12-28 22:39:46,315 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/media
+2023-12-28 22:39:46,316 INFO    Thread-13 :4834 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/media/images
+2023-12-28 22:39:46,627 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-28 22:39:46,805 INFO    Thread-25 :4834 [upload_job.py:push():143] Uploaded file /tmp/tmph05vsue2wandb/y1mt6869-media/images/feature_importance_0_706a95b32069f1194964.png
+2023-12-28 22:39:47,403 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 8
+2023-12-28 22:39:47,404 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: poll_exit
+2023-12-28 22:39:47,404 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:47,405 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 8
+2023-12-28 22:39:47,405 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:47,405 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-12-28 22:39:47,412 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 9
+2023-12-28 22:39:47,412 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:47,413 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 9
+2023-12-28 22:39:47,413 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:47,413 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-12-28 22:39:47,414 INFO    SenderThread:4834 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-12-28 22:39:47,627 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-28 22:39:48,340 INFO    SenderThread:4834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:48,342 INFO    SenderThread:4834 [dir_watcher.py:finish():392] scan: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files
+2023-12-28 22:39:48,343 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/conda-environment.yaml conda-environment.yaml
+2023-12-28 22:39:48,346 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/config.yaml config.yaml
+2023-12-28 22:39:48,351 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log output.log
+2023-12-28 22:39:48,359 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/requirements.txt requirements.txt
+2023-12-28 22:39:48,365 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-metadata.json wandb-metadata.json
+2023-12-28 22:39:48,365 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-summary.json wandb-summary.json
+2023-12-28 22:39:48,381 INFO    SenderThread:4834 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/media/images/feature_importance_0_706a95b32069f1194964.png media/images/feature_importance_0_706a95b32069f1194964.png
+2023-12-28 22:39:48,381 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 10
+2023-12-28 22:39:48,382 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: poll_exit
+2023-12-28 22:39:48,382 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:48,382 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 10
+2023-12-28 22:39:48,383 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:48,383 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-12-28 22:39:48,383 INFO    SenderThread:4834 [file_pusher.py:finish():160] shutting down file pusher
+2023-12-28 22:39:48,629 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-28 22:39:48,633 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: poll_exit
+2023-12-28 22:39:48,705 INFO    Thread-29 :4834 [upload_job.py:push():143] Uploaded file /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/requirements.txt
+2023-12-28 22:39:48,781 INFO    Thread-28 :4834 [upload_job.py:push():143] Uploaded file /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/output.log
+2023-12-28 22:39:48,806 INFO    Thread-26 :4834 [upload_job.py:push():143] Uploaded file /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/conda-environment.yaml
+2023-12-28 22:39:48,809 INFO    Thread-27 :4834 [upload_job.py:push():143] Uploaded file /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/config.yaml
+2023-12-28 22:39:48,812 INFO    Thread-30 :4834 [upload_job.py:push():143] Uploaded file /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/files/wandb-summary.json
+2023-12-28 22:39:49,013 INFO    Thread-12 :4834 [sender.py:transition_state():585] send defer: 11
+2023-12-28 22:39:49,014 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:49,014 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 11
+2023-12-28 22:39:49,015 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:49,015 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-12-28 22:39:49,015 INFO    SenderThread:4834 [file_pusher.py:join():165] waiting for file pusher
+2023-12-28 22:39:49,016 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 12
+2023-12-28 22:39:49,016 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:49,016 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 12
+2023-12-28 22:39:49,017 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:49,017 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-12-28 22:39:49,059 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 13
+2023-12-28 22:39:49,060 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:49,060 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 13
+2023-12-28 22:39:49,061 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:49,061 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-12-28 22:39:49,062 INFO    SenderThread:4834 [sender.py:transition_state():585] send defer: 14
+2023-12-28 22:39:49,062 DEBUG   SenderThread:4834 [sender.py:send():334] send: final
+2023-12-28 22:39:49,062 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: defer
+2023-12-28 22:39:49,062 DEBUG   SenderThread:4834 [sender.py:send():334] send: footer
+2023-12-28 22:39:49,062 INFO    HandlerThread:4834 [handler.py:handle_request_defer():170] handle defer: 14
+2023-12-28 22:39:49,063 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: defer
+2023-12-28 22:39:49,063 INFO    SenderThread:4834 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-12-28 22:39:49,064 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-28 22:39:49,064 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-28 22:39:49,064 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: poll_exit
+2023-12-28 22:39:49,064 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: server_info
+2023-12-28 22:39:49,065 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: poll_exit
+2023-12-28 22:39:49,065 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: get_summary
+2023-12-28 22:39:49,065 DEBUG   SenderThread:4834 [sender.py:send_request():361] send_request: server_info
+2023-12-28 22:39:49,065 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: sampled_history
+2023-12-28 22:39:49,177 INFO    MainThread:4834 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-12-28 22:39:49,178 INFO    MainThread:4834 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-12-28 22:39:49,178 INFO    MainThread:4834 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-12-28 22:39:49,178 DEBUG   HandlerThread:4834 [handler.py:handle_request():144] handle_request: shutdown
+2023-12-28 22:39:49,179 INFO    HandlerThread:4834 [handler.py:finish():841] shutting down handler
+2023-12-28 22:39:50,065 INFO    WriterThread:4834 [datastore.py:close():299] close: /workspaces/Udacity/d501/src/train_random_forest/wandb/run-20231228_223918-4alz6rzo/run-4alz6rzo.wandb
+2023-12-28 22:39:50,177 INFO    SenderThread:4834 [sender.py:finish():1491] shutting down sender
+2023-12-28 22:39:50,178 INFO    SenderThread:4834 [file_pusher.py:finish():160] shutting down file pusher
+2023-12-28 22:39:50,179 INFO    SenderThread:4834 [file_pusher.py:join():165] waiting for file pusher

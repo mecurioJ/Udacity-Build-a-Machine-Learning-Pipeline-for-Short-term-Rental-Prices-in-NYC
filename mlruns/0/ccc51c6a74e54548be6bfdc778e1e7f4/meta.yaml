@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/ccc51c6a74e54548be6bfdc778e1e7f4/artifacts
+end_time: 1703262825496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccc51c6a74e54548be6bfdc778e1e7f4
+run_name: blushing-pug-186
+run_uuid: ccc51c6a74e54548be6bfdc778e1e7f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262740167
+status: 3
+tags: []
+user_id: vscode

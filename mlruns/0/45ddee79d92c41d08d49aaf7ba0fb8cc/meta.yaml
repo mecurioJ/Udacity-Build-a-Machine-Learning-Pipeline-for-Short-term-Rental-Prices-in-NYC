@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/45ddee79d92c41d08d49aaf7ba0fb8cc/artifacts
+end_time: 1703202009676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45ddee79d92c41d08d49aaf7ba0fb8cc
+run_name: receptive-cow-635
+run_uuid: 45ddee79d92c41d08d49aaf7ba0fb8cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201985595
+status: 4
+tags: []
+user_id: vscode

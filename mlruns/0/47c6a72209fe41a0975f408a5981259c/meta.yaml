@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/47c6a72209fe41a0975f408a5981259c/artifacts
+end_time: 1703201149595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47c6a72209fe41a0975f408a5981259c
+run_name: gaudy-shrew-277
+run_uuid: 47c6a72209fe41a0975f408a5981259c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201053897
+status: 3
+tags: []
+user_id: vscode

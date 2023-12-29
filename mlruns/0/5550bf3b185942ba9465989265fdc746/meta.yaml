@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/5550bf3b185942ba9465989265fdc746/artifacts
+end_time: 1703803128772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5550bf3b185942ba9465989265fdc746
+run_name: amusing-goat-851
+run_uuid: 5550bf3b185942ba9465989265fdc746
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703803095202
+status: 3
+tags: []
+user_id: vscode

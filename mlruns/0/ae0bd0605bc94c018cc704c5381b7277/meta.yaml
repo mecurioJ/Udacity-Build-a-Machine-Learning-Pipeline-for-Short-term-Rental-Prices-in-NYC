@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/ae0bd0605bc94c018cc704c5381b7277/artifacts
+end_time: 1703201282841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae0bd0605bc94c018cc704c5381b7277
+run_name: intelligent-gull-575
+run_uuid: ae0bd0605bc94c018cc704c5381b7277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201197123
+status: 4
+tags: []
+user_id: vscode

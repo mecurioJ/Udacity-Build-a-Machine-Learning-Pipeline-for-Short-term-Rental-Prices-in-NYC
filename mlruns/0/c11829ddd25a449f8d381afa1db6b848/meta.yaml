@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/c11829ddd25a449f8d381afa1db6b848/artifacts
+end_time: 1703202835829
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c11829ddd25a449f8d381afa1db6b848
+run_name: selective-worm-605
+run_uuid: c11829ddd25a449f8d381afa1db6b848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703202801343
+status: 3
+tags: []
+user_id: vscode

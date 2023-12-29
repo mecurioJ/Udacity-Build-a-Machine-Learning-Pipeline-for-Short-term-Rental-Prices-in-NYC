@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/de76f24cabfa487c8451862449f86eb3/artifacts
+end_time: 1703202010006
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de76f24cabfa487c8451862449f86eb3
+run_name: loud-crane-159
+run_uuid: de76f24cabfa487c8451862449f86eb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201983106
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/684cbd5a6912452085f05f14e5bea9c8/artifacts
+end_time: 1703201283134
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 684cbd5a6912452085f05f14e5bea9c8
+run_name: nervous-duck-759
+run_uuid: 684cbd5a6912452085f05f14e5bea9c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201193541
+status: 4
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/2fdd5e6bbd924a5889f3aec3c0a37f82/artifacts
+end_time: 1703262878299
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fdd5e6bbd924a5889f3aec3c0a37f82
+run_name: rumbling-yak-837
+run_uuid: 2fdd5e6bbd924a5889f3aec3c0a37f82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703262862763
+status: 3
+tags: []
+user_id: vscode

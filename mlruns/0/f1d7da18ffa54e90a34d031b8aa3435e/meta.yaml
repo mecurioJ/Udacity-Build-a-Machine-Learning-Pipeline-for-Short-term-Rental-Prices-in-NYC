@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/f1d7da18ffa54e90a34d031b8aa3435e/artifacts
+end_time: 1703201949128
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1d7da18ffa54e90a34d031b8aa3435e
+run_name: wise-pig-956
+run_uuid: f1d7da18ffa54e90a34d031b8aa3435e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703201933595
+status: 4
+tags: []
+user_id: vscode

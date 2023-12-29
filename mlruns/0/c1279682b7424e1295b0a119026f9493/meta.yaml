@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/c1279682b7424e1295b0a119026f9493/artifacts
+end_time: 1703199980325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1279682b7424e1295b0a119026f9493
+run_name: tasteful-ray-147
+run_uuid: c1279682b7424e1295b0a119026f9493
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703199958393
+status: 4
+tags: []
+user_id: vscode

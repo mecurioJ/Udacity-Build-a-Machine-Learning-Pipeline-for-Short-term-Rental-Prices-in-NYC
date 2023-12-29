@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/6739b5ac96994f6c8cdbe4ba7c49903c/artifacts
+end_time: 1703203087864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6739b5ac96994f6c8cdbe4ba7c49903c
+run_name: stylish-slug-662
+run_uuid: 6739b5ac96994f6c8cdbe4ba7c49903c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703203046557
+status: 3
+tags: []
+user_id: vscode
