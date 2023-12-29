@@ -1,0 +1,13 @@
+2023-12-29 17:39:03,378 INFO    MainThread:13725 [wandb_setup.py:_flush():68] Configure stats pid to 13725
+2023-12-29 17:39:03,379 INFO    MainThread:13725 [wandb_setup.py:_flush():68] Loading settings from /home/vscode/.config/wandb/settings
+2023-12-29 17:39:03,379 INFO    MainThread:13725 [wandb_setup.py:_flush():68] Loading settings from /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/data_check/wandb/settings
+2023-12-29 17:39:03,379 INFO    MainThread:13725 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'run_group': 'development', 'project': 'nyc_airbnb'}
+2023-12-29 17:39:03,381 WARNING MainThread:13725 [wandb_setup.py:_flush():68] Could not save program above cwd: /opt/conda/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest
+2023-12-29 17:39:03,382 INFO    MainThread:13725 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/opt/conda/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest'}
+2023-12-29 17:39:03,383 INFO    MainThread:13725 [wandb_init.py:_log_setup():478] Logging user logs to /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/data_check/wandb/run-20231229_173903-vv49llpi/logs/debug.log
+2023-12-29 17:39:03,383 INFO    MainThread:13725 [wandb_init.py:_log_setup():479] Logging internal logs to /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/data_check/wandb/run-20231229_173903-vv49llpi/logs/debug-internal.log
+2023-12-29 17:39:03,384 INFO    MainThread:13725 [wandb_init.py:init():518] calling init triggers
+2023-12-29 17:39:03,385 INFO    MainThread:13725 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-12-29 17:39:03,385 INFO    MainThread:13725 [wandb_init.py:init():566] wandb.init() called when a run is still active
+2023-12-29 17:39:07,079 WARNING MsgRouterThr:13725 [router.py:message_loop():77] message_loop has been closed

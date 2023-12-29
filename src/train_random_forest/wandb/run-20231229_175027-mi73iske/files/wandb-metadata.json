@@ -1,0 +1,112 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-12-29T17:50:28.554077",
+    "startedAt": "2023-12-29T17:50:27.821533",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/multirun/2023-12-29/17-47-31/4/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/mecurioJ/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC.git",
+        "commit": "3a2f246808e884fe99117aff437c8d6a27fc5737"
+    },
+    "email": "mecurioJ@users.noreply.github.com",
+    "root": "/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC",
+    "host": "9c02e51cd774",
+    "username": "vscode",
+    "executable": "/opt/conda/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2496.0089999999996,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.009,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 33.77059555053711
+    },
+    "memory": {
+        "total": 31.210098266601562
+    }
+}

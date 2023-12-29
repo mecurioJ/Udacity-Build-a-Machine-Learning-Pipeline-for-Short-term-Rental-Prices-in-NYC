@@ -1,0 +1,5 @@
+'	
+	modeling.random_forest.max_depth=25,30
+	modeling.random_forest.n_estimators=50,100
+	modeling.random_forest.criterion: mae
+	-m'

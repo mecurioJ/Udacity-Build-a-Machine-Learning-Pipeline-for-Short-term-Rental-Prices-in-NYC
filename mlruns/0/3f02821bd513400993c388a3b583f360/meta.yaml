@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/3f02821bd513400993c388a3b583f360/artifacts
+end_time: 1703872374920
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f02821bd513400993c388a3b583f360
+run_name: valuable-stag-916
+run_uuid: 3f02821bd513400993c388a3b583f360
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703872339406
+status: 3
+tags: []
+user_id: vscode

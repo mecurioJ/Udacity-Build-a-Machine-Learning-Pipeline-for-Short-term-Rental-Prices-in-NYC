@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/8da943104a624ce699577f0aa487b5a2/artifacts
+end_time: 1703872146987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8da943104a624ce699577f0aa487b5a2
+run_name: skillful-shark-846
+run_uuid: 8da943104a624ce699577f0aa487b5a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703872052445
+status: 3
+tags: []
+user_id: vscode

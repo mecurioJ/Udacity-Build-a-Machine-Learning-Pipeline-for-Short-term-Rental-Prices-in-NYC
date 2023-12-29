@@ -1,0 +1,27 @@
+2023-12-29 18:51:10,961 INFO    MainThread:38702 [wandb_setup.py:_flush():68] Configure stats pid to 38702
+2023-12-29 18:51:10,962 INFO    MainThread:38702 [wandb_setup.py:_flush():68] Loading settings from /home/vscode/.config/wandb/settings
+2023-12-29 18:51:10,962 INFO    MainThread:38702 [wandb_setup.py:_flush():68] Loading settings from /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/components/test_regression_model/wandb/settings
+2023-12-29 18:51:10,962 INFO    MainThread:38702 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'run_group': 'development', 'project': 'nyc_airbnb'}
+2023-12-29 18:51:10,964 INFO    MainThread:38702 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'components/test_regression_model/run.py', 'program': '/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/components/test_regression_model/run.py'}
+2023-12-29 18:51:10,964 INFO    MainThread:38702 [wandb_init.py:_log_setup():478] Logging user logs to /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/components/test_regression_model/wandb/run-20231229_185110-asf583xj/logs/debug.log
+2023-12-29 18:51:10,964 INFO    MainThread:38702 [wandb_init.py:_log_setup():479] Logging internal logs to /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/components/test_regression_model/wandb/run-20231229_185110-asf583xj/logs/debug-internal.log
+2023-12-29 18:51:10,965 INFO    MainThread:38702 [wandb_init.py:init():518] calling init triggers
+2023-12-29 18:51:10,965 INFO    MainThread:38702 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-12-29 18:51:10,965 INFO    MainThread:38702 [wandb_init.py:init():571] starting backend
+2023-12-29 18:51:10,966 INFO    MainThread:38702 [wandb_init.py:init():575] setting up manager
+2023-12-29 18:51:10,969 INFO    MainThread:38702 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-29 18:51:10,973 INFO    MainThread:38702 [wandb_init.py:init():582] backend started and connected
+2023-12-29 18:51:10,975 INFO    MainThread:38702 [wandb_init.py:init():670] updated telemetry
+2023-12-29 18:51:11,038 INFO    MainThread:38702 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-12-29 18:51:11,322 INFO    MainThread:38702 [wandb_run.py:_on_init():2121] communicating current version
+2023-12-29 18:51:11,422 INFO    MainThread:38702 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-29 18:51:11,422 INFO    MainThread:38702 [wandb_init.py:init():758] starting run threads in backend
+2023-12-29 18:51:12,580 INFO    MainThread:38702 [wandb_run.py:_console_start():2101] atexit reg
+2023-12-29 18:51:12,581 INFO    MainThread:38702 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-12-29 18:51:12,581 INFO    MainThread:38702 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-12-29 18:51:12,581 INFO    MainThread:38702 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-12-29 18:51:12,582 INFO    MainThread:38702 [wandb_init.py:init():798] run started, returning control to user process
+2023-12-29 18:51:12,583 INFO    MainThread:38702 [wandb_run.py:_config_callback():1249] config_cb None None {'mlflow_model': 'random_forest_export:prod', 'test_dataset': 'test_data.csv:latest'}
+2023-12-29 18:51:19,187 WARNING MsgRouterThr:38702 [router.py:message_loop():77] message_loop has been closed

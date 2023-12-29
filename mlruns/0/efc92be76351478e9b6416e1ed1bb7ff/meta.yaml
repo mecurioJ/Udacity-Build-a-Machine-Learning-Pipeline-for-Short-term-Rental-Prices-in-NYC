@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/efc92be76351478e9b6416e1ed1bb7ff/artifacts
+end_time: 1703874876785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efc92be76351478e9b6416e1ed1bb7ff
+run_name: upset-snake-430
+run_uuid: efc92be76351478e9b6416e1ed1bb7ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703874854955
+status: 3
+tags: []
+user_id: vscode

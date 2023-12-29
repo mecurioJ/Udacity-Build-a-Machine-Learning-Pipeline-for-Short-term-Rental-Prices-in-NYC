@@ -1,0 +1,215 @@
+2023-12-29 17:48:46,838 INFO    StreamThr :16571 [internal.py:wandb_internal():87] W&B internal server running at pid: 16571, started at: 2023-12-29 17:48:46.837767
+2023-12-29 17:48:46,839 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: status
+2023-12-29 17:48:46,844 INFO    WriterThread:16571 [datastore.py:open_for_write():85] open: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/run-mzk55303.wandb
+2023-12-29 17:48:46,846 DEBUG   SenderThread:16571 [sender.py:send():334] send: header
+2023-12-29 17:48:46,908 DEBUG   SenderThread:16571 [sender.py:send():334] send: run
+2023-12-29 17:48:47,203 INFO    SenderThread:16571 [dir_watcher.py:__init__():216] watching files in: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files
+2023-12-29 17:48:47,203 INFO    SenderThread:16571 [sender.py:_start_run_threads():1065] run started: mzk55303 with start time 1703872126.840078
+2023-12-29 17:48:47,203 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: check_version
+2023-12-29 17:48:47,204 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: summary_record
+2023-12-29 17:48:47,206 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:48:47,207 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: check_version
+2023-12-29 17:48:47,304 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: run_start
+2023-12-29 17:48:47,305 DEBUG   HandlerThread:16571 [system_info.py:__init__():31] System info init
+2023-12-29 17:48:47,305 DEBUG   HandlerThread:16571 [system_info.py:__init__():46] System info init done
+2023-12-29 17:48:47,306 INFO    HandlerThread:16571 [system_monitor.py:start():151] Starting system monitor
+2023-12-29 17:48:47,306 INFO    SystemMonitor:16571 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-12-29 17:48:47,306 INFO    HandlerThread:16571 [system_monitor.py:probe():172] Collecting system info
+2023-12-29 17:48:47,306 INFO    SystemMonitor:16571 [interfaces.py:start():168] Started cpu
+2023-12-29 17:48:47,307 INFO    SystemMonitor:16571 [interfaces.py:start():168] Started disk
+2023-12-29 17:48:47,309 INFO    SystemMonitor:16571 [interfaces.py:start():168] Started memory
+2023-12-29 17:48:47,310 INFO    SystemMonitor:16571 [interfaces.py:start():168] Started network
+2023-12-29 17:48:47,311 DEBUG   HandlerThread:16571 [system_info.py:probe():195] Probing system
+2023-12-29 17:48:47,321 DEBUG   HandlerThread:16571 [system_info.py:_probe_git():180] Probing git
+2023-12-29 17:48:47,373 DEBUG   HandlerThread:16571 [system_info.py:_probe_git():188] Probing git done
+2023-12-29 17:48:47,373 DEBUG   HandlerThread:16571 [system_info.py:probe():241] Probing system done
+2023-12-29 17:48:47,374 DEBUG   HandlerThread:16571 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2023-12-29T17:48:47.312096', 'startedAt': '2023-12-29T17:48:46.801032', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/multirun/2023-12-29/17-47-31/0/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/mecurioJ/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC.git', 'commit': '3a2f246808e884fe99117aff437c8d6a27fc5737'}, 'email': 'mecurioJ@users.noreply.github.com', 'root': '/workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC', 'host': '9c02e51cd774', 'username': 'vscode', 'executable': '/opt/conda/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0089999999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}, {'current': 2496.009, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 33.74232864379883}, 'memory': {'total': 31.210098266601562}}
+2023-12-29 17:48:47,374 INFO    HandlerThread:16571 [system_monitor.py:probe():182] Finished collecting system info
+2023-12-29 17:48:47,374 INFO    HandlerThread:16571 [system_monitor.py:probe():185] Publishing system info
+2023-12-29 17:48:47,374 DEBUG   HandlerThread:16571 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-12-29 17:48:47,378 DEBUG   HandlerThread:16571 [system_info.py:_save_pip():67] Saving pip packages done
+2023-12-29 17:48:47,378 DEBUG   HandlerThread:16571 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-12-29 17:48:48,207 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/conda-environment.yaml
+2023-12-29 17:48:48,208 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-summary.json
+2023-12-29 17:48:48,209 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/requirements.txt
+2023-12-29 17:48:48,916 DEBUG   HandlerThread:16571 [system_info.py:_save_conda():86] Saving conda packages done
+2023-12-29 17:48:48,920 INFO    HandlerThread:16571 [system_monitor.py:probe():187] Finished publishing system info
+2023-12-29 17:48:48,922 DEBUG   SenderThread:16571 [sender.py:send():334] send: files
+2023-12-29 17:48:48,923 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-12-29 17:48:48,931 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-29 17:48:48,932 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: stop_status
+2023-12-29 17:48:49,128 DEBUG   SenderThread:16571 [sender.py:send():334] send: telemetry
+2023-12-29 17:48:49,129 DEBUG   SenderThread:16571 [sender.py:send():334] send: config
+2023-12-29 17:48:49,129 DEBUG   SenderThread:16571 [sender.py:send():334] send: config
+2023-12-29 17:48:49,214 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/conda-environment.yaml
+2023-12-29 17:48:49,215 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-metadata.json
+2023-12-29 17:48:49,277 DEBUG   SenderThread:16571 [sender.py:send():334] send: use_artifact
+2023-12-29 17:48:49,337 INFO    Thread-16 :16571 [upload_job.py:push():143] Uploaded file /tmp/tmpo64m7uf1wandb/tdq1l89g-wandb-metadata.json
+2023-12-29 17:48:52,279 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: status_report
+2023-12-29 17:48:54,256 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:48:56,271 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:48:57,907 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: status_report
+2023-12-29 17:48:59,934 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: log_artifact
+2023-12-29 17:48:59,935 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: log_artifact
+2023-12-29 17:49:00,287 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:49:00,577 INFO    Thread-19 :16571 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpibbcnh8v
+2023-12-29 17:49:00,577 INFO    Thread-20 :16571 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpdk2thsd1
+2023-12-29 17:49:00,578 INFO    Thread-22 :16571 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmpmrnjj41h
+2023-12-29 17:49:00,578 INFO    Thread-23 :16571 [upload_job.py:push():98] Skipped uploading /home/vscode/.local/share/wandb/artifacts/staging/tmp_8brf75z
+2023-12-29 17:49:00,786 INFO    Thread-18 :16571 [upload_job.py:push():101] Uploaded file /home/vscode/.local/share/wandb/artifacts/staging/tmpylm5y_01
+2023-12-29 17:49:01,019 INFO    Thread-21 :16571 [upload_job.py:push():101] Uploaded file /home/vscode/.local/share/wandb/artifacts/staging/tmp50bjsh8f
+2023-12-29 17:49:01,598 INFO    SenderThread:16571 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6Njc2ODAwMTM0', 'digest': 'c3dd2a1785fcb7f6df432a42d43209e8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDk0MjQ5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njc2MzUyNDk5', 'versionIndex': 11}}, 'version': 'latest'}
+2023-12-29 17:49:01,905 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: summary_record
+2023-12-29 17:49:01,907 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:49:01,908 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: summary_record
+2023-12-29 17:49:01,915 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:49:02,287 DEBUG   SenderThread:16571 [sender.py:send():334] send: files
+2023-12-29 17:49:02,287 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-29 17:49:02,287 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_06807fad0c10163fb606.png with policy now
+2023-12-29 17:49:02,294 DEBUG   SenderThread:16571 [sender.py:send():334] send: history
+2023-12-29 17:49:02,294 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: summary_record
+2023-12-29 17:49:02,296 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:49:02,298 DEBUG   SenderThread:16571 [sender.py:send():334] send: exit
+2023-12-29 17:49:02,298 INFO    SenderThread:16571 [sender.py:send_exit():557] handling exit code: 0
+2023-12-29 17:49:02,298 INFO    SenderThread:16571 [sender.py:send_exit():559] handling runtime: 14
+2023-12-29 17:49:02,305 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:49:02,306 INFO    SenderThread:16571 [sender.py:send_exit():565] send defer
+2023-12-29 17:49:02,306 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,306 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:49:02,307 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 0
+2023-12-29 17:49:02,307 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-summary.json
+2023-12-29 17:49:02,307 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,308 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-12-29 17:49:02,308 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 1
+2023-12-29 17:49:02,308 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,308 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/media/images/feature_importance_0_06807fad0c10163fb606.png
+2023-12-29 17:49:02,308 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 1
+2023-12-29 17:49:02,309 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,309 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-12-29 17:49:02,310 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 2
+2023-12-29 17:49:02,310 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,310 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 2
+2023-12-29 17:49:02,310 INFO    HandlerThread:16571 [system_monitor.py:finish():161] Stopping system monitor
+2023-12-29 17:49:02,311 DEBUG   SystemMonitor:16571 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-12-29 17:49:02,312 DEBUG   SystemMonitor:16571 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-12-29 17:49:02,312 INFO    HandlerThread:16571 [interfaces.py:finish():175] Joined cpu
+2023-12-29 17:49:02,312 DEBUG   SystemMonitor:16571 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-12-29 17:49:02,312 INFO    HandlerThread:16571 [interfaces.py:finish():175] Joined disk
+2023-12-29 17:49:02,313 INFO    HandlerThread:16571 [interfaces.py:finish():175] Joined memory
+2023-12-29 17:49:02,313 INFO    HandlerThread:16571 [interfaces.py:finish():175] Joined network
+2023-12-29 17:49:02,314 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,314 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-12-29 17:49:02,315 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 3
+2023-12-29 17:49:02,315 DEBUG   SenderThread:16571 [sender.py:send():334] send: stats
+2023-12-29 17:49:02,315 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,315 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 3
+2023-12-29 17:49:02,316 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/media/images
+2023-12-29 17:49:02,316 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,316 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-12-29 17:49:02,316 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 4
+2023-12-29 17:49:02,317 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,317 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_created():275] file/dir created: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/media
+2023-12-29 17:49:02,317 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 4
+2023-12-29 17:49:02,318 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,318 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-12-29 17:49:02,318 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 5
+2023-12-29 17:49:02,318 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,319 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 5
+2023-12-29 17:49:02,319 DEBUG   SenderThread:16571 [sender.py:send():334] send: summary
+2023-12-29 17:49:02,321 INFO    SenderThread:16571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-12-29 17:49:02,322 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,322 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-12-29 17:49:02,322 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 6
+2023-12-29 17:49:02,322 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,322 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 6
+2023-12-29 17:49:02,323 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,323 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-12-29 17:49:02,326 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: status_report
+2023-12-29 17:49:02,457 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 7
+2023-12-29 17:49:02,457 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:02,458 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 7
+2023-12-29 17:49:02,458 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:02,458 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-12-29 17:49:02,666 INFO    Thread-24 :16571 [upload_job.py:push():143] Uploaded file /tmp/tmpo64m7uf1wandb/0rd4oavi-media/images/feature_importance_0_06807fad0c10163fb606.png
+2023-12-29 17:49:03,053 INFO    Thread-25 :16571 [upload_job.py:push():143] Uploaded file /tmp/tmpo64m7uf1wandb/tdqy40io-media/images/feature_importance_0_06807fad0c10163fb606.png
+2023-12-29 17:49:03,290 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-29 17:49:03,324 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-summary.json
+2023-12-29 17:49:03,325 INFO    Thread-13 :16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/config.yaml
+2023-12-29 17:49:03,921 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 8
+2023-12-29 17:49:03,921 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: poll_exit
+2023-12-29 17:49:03,922 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:03,922 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 8
+2023-12-29 17:49:03,923 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:03,924 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-12-29 17:49:03,939 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 9
+2023-12-29 17:49:03,939 DEBUG   SenderThread:16571 [sender.py:send():334] send: artifact
+2023-12-29 17:49:03,939 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:03,941 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 9
+2023-12-29 17:49:04,143 ERROR   SenderThread:16571 [internal_api.py:execute():244] 400 response executing GraphQL.
+2023-12-29 17:49:04,144 ERROR   SenderThread:16571 [internal_api.py:execute():245] {"errors":[{"message":"invalid artifact name job-https___github.com_mecurioJ_Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC.git_src_train_random_forest_run.py, must be 128 characters or less","path":["createArtifact"]}],"data":{"createArtifact":null}}
+2023-12-29 17:49:04,145 ERROR   SenderThread:16571 [sender.py:send_artifact():1417] send_artifact: failed for artifact "job/job-https___github.com_mecurioJ_Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC.git_src_train_random_forest_run.py": 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+2023-12-29 17:49:04,146 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:04,147 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-12-29 17:49:04,147 INFO    SenderThread:16571 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-12-29 17:49:04,291 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-29 17:49:04,347 INFO    SenderThread:16571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:49:04,348 INFO    SenderThread:16571 [dir_watcher.py:finish():392] scan: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files
+2023-12-29 17:49:04,349 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/conda-environment.yaml conda-environment.yaml
+2023-12-29 17:49:04,351 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/config.yaml config.yaml
+2023-12-29 17:49:04,357 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log output.log
+2023-12-29 17:49:04,363 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/requirements.txt requirements.txt
+2023-12-29 17:49:04,369 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-metadata.json wandb-metadata.json
+2023-12-29 17:49:04,370 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-summary.json wandb-summary.json
+2023-12-29 17:49:04,382 INFO    SenderThread:16571 [dir_watcher.py:finish():406] scan save: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/media/images/feature_importance_0_06807fad0c10163fb606.png media/images/feature_importance_0_06807fad0c10163fb606.png
+2023-12-29 17:49:04,382 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 10
+2023-12-29 17:49:04,383 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: poll_exit
+2023-12-29 17:49:04,383 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:04,383 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 10
+2023-12-29 17:49:04,384 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:04,384 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-12-29 17:49:04,384 INFO    SenderThread:16571 [file_pusher.py:finish():160] shutting down file pusher
+2023-12-29 17:49:04,730 INFO    Thread-28 :16571 [upload_job.py:push():143] Uploaded file /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/output.log
+2023-12-29 17:49:04,735 INFO    Thread-30 :16571 [upload_job.py:push():143] Uploaded file /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/wandb-summary.json
+2023-12-29 17:49:04,776 INFO    Thread-27 :16571 [upload_job.py:push():143] Uploaded file /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/config.yaml
+2023-12-29 17:49:04,778 INFO    Thread-26 :16571 [upload_job.py:push():143] Uploaded file /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/conda-environment.yaml
+2023-12-29 17:49:04,790 INFO    Thread-29 :16571 [upload_job.py:push():143] Uploaded file /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/files/requirements.txt
+2023-12-29 17:49:04,991 INFO    Thread-12 :16571 [sender.py:transition_state():585] send defer: 11
+2023-12-29 17:49:04,993 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:04,994 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 11
+2023-12-29 17:49:04,995 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:04,996 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-12-29 17:49:04,996 INFO    SenderThread:16571 [file_pusher.py:join():165] waiting for file pusher
+2023-12-29 17:49:04,996 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 12
+2023-12-29 17:49:04,997 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:04,997 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 12
+2023-12-29 17:49:04,998 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:04,998 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-12-29 17:49:05,056 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 13
+2023-12-29 17:49:05,056 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:05,057 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 13
+2023-12-29 17:49:05,057 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:05,058 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-12-29 17:49:05,058 INFO    SenderThread:16571 [sender.py:transition_state():585] send defer: 14
+2023-12-29 17:49:05,058 DEBUG   SenderThread:16571 [sender.py:send():334] send: final
+2023-12-29 17:49:05,058 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: defer
+2023-12-29 17:49:05,058 DEBUG   SenderThread:16571 [sender.py:send():334] send: footer
+2023-12-29 17:49:05,059 INFO    HandlerThread:16571 [handler.py:handle_request_defer():170] handle defer: 14
+2023-12-29 17:49:05,059 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: defer
+2023-12-29 17:49:05,059 INFO    SenderThread:16571 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-12-29 17:49:05,060 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-29 17:49:05,061 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-29 17:49:05,061 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: poll_exit
+2023-12-29 17:49:05,061 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: server_info
+2023-12-29 17:49:05,062 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: poll_exit
+2023-12-29 17:49:05,062 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: get_summary
+2023-12-29 17:49:05,062 DEBUG   SenderThread:16571 [sender.py:send_request():361] send_request: server_info
+2023-12-29 17:49:05,063 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: sampled_history
+2023-12-29 17:49:05,157 INFO    MainThread:16571 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-12-29 17:49:05,157 INFO    MainThread:16571 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-12-29 17:49:05,157 INFO    MainThread:16571 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-12-29 17:49:05,158 DEBUG   HandlerThread:16571 [handler.py:handle_request():144] handle_request: shutdown
+2023-12-29 17:49:05,158 INFO    HandlerThread:16571 [handler.py:finish():841] shutting down handler
+2023-12-29 17:49:06,062 INFO    WriterThread:16571 [datastore.py:close():299] close: /workspaces/Udacity-Build-a-Machine-Learning-Pipeline-for-Short-term-Rental-Prices-in-NYC/src/train_random_forest/wandb/run-20231229_174846-mzk55303/run-mzk55303.wandb
+2023-12-29 17:49:06,157 INFO    SenderThread:16571 [sender.py:finish():1491] shutting down sender
+2023-12-29 17:49:06,157 INFO    SenderThread:16571 [file_pusher.py:finish():160] shutting down file pusher
+2023-12-29 17:49:06,158 INFO    SenderThread:16571 [file_pusher.py:join():165] waiting for file pusher

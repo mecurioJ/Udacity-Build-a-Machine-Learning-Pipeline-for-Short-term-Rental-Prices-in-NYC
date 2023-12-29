@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/4d6f4b38569248288cc84ef5b8206310/artifacts
+end_time: 1703875433595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d6f4b38569248288cc84ef5b8206310
+run_name: magnificent-worm-904
+run_uuid: 4d6f4b38569248288cc84ef5b8206310
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875405907
+status: 3
+tags: []
+user_id: vscode

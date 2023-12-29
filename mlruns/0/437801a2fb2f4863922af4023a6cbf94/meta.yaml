@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/437801a2fb2f4863922af4023a6cbf94/artifacts
+end_time: 1703875363040
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 437801a2fb2f4863922af4023a6cbf94
+run_name: glamorous-worm-371
+run_uuid: 437801a2fb2f4863922af4023a6cbf94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875336256
+status: 3
+tags: []
+user_id: vscode

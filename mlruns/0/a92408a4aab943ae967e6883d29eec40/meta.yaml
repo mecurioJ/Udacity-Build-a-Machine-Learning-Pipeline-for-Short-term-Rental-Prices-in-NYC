@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/a92408a4aab943ae967e6883d29eec40/artifacts
+end_time: 1703871547572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a92408a4aab943ae967e6883d29eec40
+run_name: unruly-skunk-570
+run_uuid: a92408a4aab943ae967e6883d29eec40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703871515378
+status: 3
+tags: []
+user_id: vscode

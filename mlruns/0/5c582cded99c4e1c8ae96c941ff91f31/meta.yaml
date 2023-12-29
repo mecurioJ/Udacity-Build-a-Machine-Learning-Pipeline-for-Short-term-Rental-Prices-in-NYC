@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/5c582cded99c4e1c8ae96c941ff91f31/artifacts
+end_time: 1703874854684
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c582cded99c4e1c8ae96c941ff91f31
+run_name: casual-dolphin-931
+run_uuid: 5c582cded99c4e1c8ae96c941ff91f31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703874826610
+status: 3
+tags: []
+user_id: vscode

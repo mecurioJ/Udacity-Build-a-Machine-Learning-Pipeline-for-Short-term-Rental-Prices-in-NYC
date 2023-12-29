@@ -1,0 +1,5 @@
+'	
+	modeling.max_tfidf_features = 10
+	modeling.random_forest.max_depth=25,30
+	modeling.random_forest.n_estimators=50,100
+	-m'

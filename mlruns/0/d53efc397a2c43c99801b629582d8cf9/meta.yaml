@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/d53efc397a2c43c99801b629582d8cf9/artifacts
+end_time: 1703871547780
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d53efc397a2c43c99801b629582d8cf9
+run_name: fortunate-asp-327
+run_uuid: d53efc397a2c43c99801b629582d8cf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703871513239
+status: 3
+tags: []
+user_id: vscode

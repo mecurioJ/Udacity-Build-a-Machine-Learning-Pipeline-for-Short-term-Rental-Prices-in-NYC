@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/99167e123829454e82a97af428aa5f38/artifacts
+end_time: 1703875335961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99167e123829454e82a97af428aa5f38
+run_name: skittish-robin-777
+run_uuid: 99167e123829454e82a97af428aa5f38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875310910
+status: 3
+tags: []
+user_id: vscode

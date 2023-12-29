@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/d4f040fc68d54ab198b4f6ac211b6855/artifacts
+end_time: 1703874902280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4f040fc68d54ab198b4f6ac211b6855
+run_name: masked-hare-203
+run_uuid: d4f040fc68d54ab198b4f6ac211b6855
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703874804342
+status: 3
+tags: []
+user_id: vscode

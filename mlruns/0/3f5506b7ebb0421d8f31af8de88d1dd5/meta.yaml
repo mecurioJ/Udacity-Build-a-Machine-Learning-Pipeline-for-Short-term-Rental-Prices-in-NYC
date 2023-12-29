@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/3f5506b7ebb0421d8f31af8de88d1dd5/artifacts
+end_time: 1703872285553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f5506b7ebb0421d8f31af8de88d1dd5
+run_name: dazzling-owl-99
+run_uuid: 3f5506b7ebb0421d8f31af8de88d1dd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703872250945
+status: 3
+tags: []
+user_id: vscode

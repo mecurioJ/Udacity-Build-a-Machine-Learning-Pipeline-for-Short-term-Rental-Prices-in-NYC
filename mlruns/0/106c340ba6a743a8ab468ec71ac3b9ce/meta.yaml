@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/106c340ba6a743a8ab468ec71ac3b9ce/artifacts
+end_time: 1703872339132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 106c340ba6a743a8ab468ec71ac3b9ce
+run_name: melodic-mare-691
+run_uuid: 106c340ba6a743a8ab468ec71ac3b9ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703872307308
+status: 3
+tags: []
+user_id: vscode

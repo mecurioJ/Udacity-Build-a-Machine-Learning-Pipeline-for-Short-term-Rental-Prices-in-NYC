@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/f6c3f293c05444c5a7ef1a0a83ade03e/artifacts
+end_time: 1703874773696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6c3f293c05444c5a7ef1a0a83ade03e
+run_name: dashing-stork-137
+run_uuid: f6c3f293c05444c5a7ef1a0a83ade03e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703874771554
+status: 4
+tags: []
+user_id: vscode

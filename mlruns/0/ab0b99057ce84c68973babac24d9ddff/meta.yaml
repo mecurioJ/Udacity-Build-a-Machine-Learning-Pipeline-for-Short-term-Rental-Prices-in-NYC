@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/ab0b99057ce84c68973babac24d9ddff/artifacts
+end_time: 1703871499456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab0b99057ce84c68973babac24d9ddff
+run_name: clumsy-pig-566
+run_uuid: ab0b99057ce84c68973babac24d9ddff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703871159514
+status: 3
+tags: []
+user_id: vscode

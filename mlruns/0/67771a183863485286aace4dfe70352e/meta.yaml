@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/67771a183863485286aace4dfe70352e/artifacts
+end_time: 1703875461337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67771a183863485286aace4dfe70352e
+run_name: glamorous-tern-109
+run_uuid: 67771a183863485286aace4dfe70352e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875433882
+status: 3
+tags: []
+user_id: vscode

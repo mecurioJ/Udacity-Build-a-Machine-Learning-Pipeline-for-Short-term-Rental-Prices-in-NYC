@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/c8adc109c5cf40249abff5d960006991/artifacts
+end_time: 1703872171863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8adc109c5cf40249abff5d960006991
+run_name: masked-vole-35
+run_uuid: c8adc109c5cf40249abff5d960006991
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703872147270
+status: 3
+tags: []
+user_id: vscode

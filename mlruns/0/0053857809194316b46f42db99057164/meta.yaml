@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/0053857809194316b46f42db99057164/artifacts
+end_time: 1703875288467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0053857809194316b46f42db99057164
+run_name: serious-crow-281
+run_uuid: 0053857809194316b46f42db99057164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875267089
+status: 3
+tags: []
+user_id: vscode

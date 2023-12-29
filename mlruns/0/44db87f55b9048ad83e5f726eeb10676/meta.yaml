@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Udacity/d501/mlruns/0/44db87f55b9048ad83e5f726eeb10676/artifacts
+end_time: 1703875405584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44db87f55b9048ad83e5f726eeb10676
+run_name: treasured-midge-99
+run_uuid: 44db87f55b9048ad83e5f726eeb10676
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703875384584
+status: 3
+tags: []
+user_id: vscode
